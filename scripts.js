@@ -24,7 +24,7 @@ function draw() {
 	barriers();
 	absc -= 3;
 	if (trigger(absc, arr[0])) {
-		res = confirm('ТЫ ПРОИГРАЛ, РУКАЖОПЫЙ!\nеще раз?');
+		res = confirm('ТЫ ПРОИГРАЛ\nеще раз?');
 		if (res === true) {
 			document.location.reload();
 			noLoop();
